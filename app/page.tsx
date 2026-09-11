@@ -288,8 +288,6 @@ export default function Home() {
       <div className="eyebrow"><CalendarDays size={15} /> 2026—2027 武汉周边自驾计划</div>
       <h1>六个周末，慢慢带娃去看世界</h1>
       <p>从家中午出发，第二天下午4—5点开车返家。按最适合的月份排好，点一下就能切换查看。</p>
-      <div className="skip-note"><CalendarDays size={17} /><div><b>10月不安排武汉周边行程</b><span>国庆假期去厦门，甘露山花间堂顺延到明年春季。</span></div></div>
-
       <button className="mobile-select" type="button" onClick={() => setMobileMenu(!mobileMenu)} aria-expanded={mobileMenu}>
         <span><b>{selected.month}</b>{selected.name}</span><ChevronDown size={18} />
       </button>
